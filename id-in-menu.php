@@ -17,7 +17,6 @@ class Id_in_menu_bar {
   }
 
   function admin_bar_menu( $wp_admin_bar ) {
-    // add live countdown to next reset to Toolbar
     $wp_admin_bar->add_menu( array(
       'id'    => 'id',
       'title' => 'ID:   ' . get_the_id(),
